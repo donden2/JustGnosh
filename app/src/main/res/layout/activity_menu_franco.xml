@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Franco">
+
+    <ScrollView
+        android:id="@+id/menuScrollView"
+        android:layout_width="409dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/francoBites"
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:onClick="addBitesToBasket"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/franco_bites"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/francoPizza"
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:onClick="goToPizzaMenu"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/franco_pizza" />
+            <ImageButton
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/advertising" />
+
+            <ImageButton
+                android:id="@+id/francoDrinks"
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:onClick="addDrinksToBasket"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/franco_drinks" />
+
+            <ImageButton
+                android:id="@+id/francoPPizza"
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:onClick="addPostPizzaToBasket"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/franco_postpizza" />
+
+            <ImageButton
+                android:id="@+id/francoSalad"
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:onClick="addSaladToBasket"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/franco_salad" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

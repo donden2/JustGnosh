@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--        This is specifically for displaying our ArrayList       -->
+    <ImageButton
+        android:id="@+id/francoPizza"
+        android:layout_width="420dp"
+        android:layout_height="140dp"
+        android:padding="4.5dp"
+        android:scaleType="centerCrop"
+        />
+</android.support.constraint.ConstraintLayout>

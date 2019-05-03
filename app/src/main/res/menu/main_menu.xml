@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:PMT="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/cart30"
+        android:title="Basket"
+        android:visible="true"
+        tools:orderInCategory="100"
+        PMT:showAsAction="always" />
+    <item
+        android:id="@+id/loginActivity"
+        android:title="Login"
+        android:visible="true"
+        PMT:showAsAction="ifRoom"
+        tools:orderInCategory="100" />
+
+    <item
+        android:id="@+id/registerActivity"
+        android:title="Register"
+        android:visible="true"
+        PMT:showAsAction="ifRoom"
+        tools:orderInCategory="100" />
+
+    <item
+        android:id="@+id/previousOrders"
+        android:title="@string/previousOrders">
+        <menu>
+            <item
+                android:id="@+id/ReorderPrevious"
+                android:title="@string/ReorderPrevious" />
+        </menu>
+    </item>
+</menu>

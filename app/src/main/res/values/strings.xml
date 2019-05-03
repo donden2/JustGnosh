@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JustGnosh</string>
+    <string name="title_activity_restaurant_menu">Restaurants in your area</string>
+    <string name="create_new">Create new</string>
+    <string name="file">File</string>
+    <string name="previousOrders">Previous Orders</string>
+    <string name="ReorderPrevious">Reorder</string>
+</resources>

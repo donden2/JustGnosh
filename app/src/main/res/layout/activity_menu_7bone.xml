@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ScrollView
+        android:id="@+id/menuScrollView"
+        android:layout_width="409dp"
+        android:layout_height="695dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bone_dogs"
+                android:onClick="goToDogsMenu"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bone_burgers" />
+            <ImageButton
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/advertising" />
+
+            <ImageButton
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bone_beverages" />
+
+            <ImageButton
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bone_meatfree" />
+
+            <ImageButton
+                android:layout_width="420dp"
+                android:layout_height="140dp"
+                android:padding="4.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bone_sides" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
